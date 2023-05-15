@@ -1,4 +1,4 @@
-package com.devsuperior.dslist.entities;
+package com.projetogamelist.dslist.entities;
 
 import java.util.Objects;
 
@@ -11,8 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_game")
-public class Game {
-	
+public class Game {	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
